@@ -136,8 +136,8 @@ def create_readme(genome_name, consensus_sequence, output_files, readme_file="RE
 #
 # SSH connection and file transfer settings
 ssh_hostname = "lcc.uky.edu"
-ssh_username = "blri233"
-ssh_password = "gorgonzola 69B!@#" # Don't steal my identity there is nothing of value on there
+ssh_username = "username"
+ssh_password = "password" # Don't steal my identity there is nothing of value on there
 
 # Reverse transcribed sequences
 # cdna, cds, or pep
