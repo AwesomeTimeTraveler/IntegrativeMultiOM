@@ -1,8 +1,10 @@
-# MethylationAnalysis
-Pipeline for interacting with , procesing, and analysing DNA methylation data
+# Integrative Multi-OM 
+# - IMOM - 
 
 Illumina Methyl40 bead-chip, Clock Consortium
 Infinium v2.0
+
+DNB Double Stranded Eukaryotic RNAsequencing - polyA
 
 SESAME
 
