@@ -22,7 +22,7 @@ for BAM_FILE in "$DATA_DIR"/*.bam; do
     BASENAME=$(basename "$BAM_FILE" .bam)
     
     # Run the stringtie command
-    stringtie -p 8 -G "$GTF" -o "$DATA_DIR/output_$BASENAME.gtf" -l "$BASENAME" "$BAM_FILE"
+    stringtie -p 24 -G "$GTF" -o "$DATA_DIR/output_$BASENAME.gtf" -l "$BASENAME" "$BAM_FILE"
     
     # Append the location to the sample_lst.txt
     echo "$DATA_DIR/output_$BASENAME.gtf" >> "$DATA_DIR/sample_lst.txt"
